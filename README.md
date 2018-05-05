@@ -1,4 +1,4 @@
-# auth-project
+# Vue social login
 
 > A Vue.js project
 
