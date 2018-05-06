@@ -4,9 +4,8 @@
     <img :src="user.photoURL" width="100"> <br>
     <h3>{{user.displayName}}</h3>
     <p>{{user.email}}</p>
-    <button @click="logOut">Log out</button>
+    <a class="button is-link" @click="logOut">Log out</a>
     <br><br><br>
-    <pre>{{user}}</pre>
   </div>
 </template>
 

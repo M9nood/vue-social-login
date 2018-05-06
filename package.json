@@ -10,6 +10,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bulma": "^0.7.1",
     "firebase": "^4.13.1",
     "firebaseui": "^2.7.0",
     "vue": "^2.5.2",

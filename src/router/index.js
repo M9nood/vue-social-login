@@ -12,7 +12,7 @@ var routes = [
   { path: '/home', name: 'home', component: Home },
   { path: '/auth', name: 'auth', component: Auth, meta: { guestOnly: true } },
   { path: '/dashboard', name: 'dashboard', component: Dashboard, meta: { requireAuth: true } },
-  { path: '*', redirect: '/home' }
+  { path: '*', redirect: '/auth' }
 ]
 
 const router = new Router({
